@@ -123,6 +123,10 @@ footer {
   margin: 0 -13px 80px;
 }
 
+.image-grid p {
+  text-align: center;
+}
+
 .image-grid a {
   text-decoration: none;
   text-align: center;
