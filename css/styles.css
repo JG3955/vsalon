@@ -26,12 +26,30 @@ ul {
   list-style-type: none;
 }
 
-.nav-item {
-  padding: 0 15px;
+img {
+  filter: grayscale(100%);
+  transition: all 150ms ease-in-out;
 }
 
-.navbar-light .navbar-nav .nav-link.active {
-  color: var(--branding-color);
+img:hover {
+  filter: none;
+}
+
+.navbar {
+  margin: 0 -22px;
+  padding-left: 20px;
+}
+
+.nav-item {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.active {
+  color: var(--branding-color) !important;
+  font-weight: bold;
+  font-size: 17px;
 }
 
 .collapse.navbar-collapse {
@@ -42,8 +60,8 @@ ul {
   background-color: var(--second-color);
   color: white;
   text-align: center;
-  max-width: 1440px;
-  padding: 200px;
+  padding: 100px 20px;
+  margin: 0 -13px;
 }
 
 .hero h1 {
@@ -60,7 +78,7 @@ ul {
   font-family: "Roboto", sans-serif;
   color: white;
   letter-spacing: 2px;
-  padding: 50px 0 30px;
+  max-width: 1000px;
 }
 
 .container h3 {
@@ -72,7 +90,7 @@ ul {
 }
 
 .contact-box {
-  padding: 70px 70px 30px;
+  padding: 70px 40px 30px;
 }
 
 .contact-box p {
@@ -80,11 +98,19 @@ ul {
 }
 
 .image-grid {
-  margin-bottom: 70px;
   background-color: var(--second-color);
-  padding: 40px 0;
-  margin: 0 1px;
-  margin-bottom: 80px;
+  padding: 20px 0 10px;
+  margin: 0 -13px 80px;
+  align-items: center;
+}
+
+.image-grid a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1px;
+  color: white;
+  opacity: 90%;
+  text-transform: uppercase;
 }
 
 .btn-branding {
@@ -99,7 +125,7 @@ ul {
 .contact-links {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 3px;
   transition: all 150ms ease-in-out;
 }
