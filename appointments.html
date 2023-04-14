@@ -92,36 +92,54 @@
         </nav>
       </div>
 
-      <div class="container mt-5 text-center">
-        <h1>Book Now</h1>
+      <div class="container calendar-content mt-5 text-center">
+        <h1 class="mb-4">Book Now</h1>
         <div class="row">
-          <div class="col-md"></div>
-          <div class="col-md">
+          <div class="col-md-6">
+            <h3 class="fw-bold text-start">Available Appointments</h3>
+            <div class="appointment-time">
+              <label for="date">Date</label>
+              <input type="date" id="date" />
+            </div>
+            <div class="appointment-time">
+              <label for="time">Time</label>
+              <input type="time" id="time" />
+            </div>
+            <div class="appointment-service">
+              <label for="service">Service</label>
+              <input type="text" id="service" />
+            </div>
+            <div class="appointment-service">
+              <label for="stylist">Stylist</label>
+              <input type="text" id="stylist" />
+            </div>
+          </div>
+          <div class="col-md-6">
             <h3 class="text-start ms-5 font-weight-bold">SALON HOURS</h3>
-            <ul class="text-start ms-3">
+            <ul class="text-start ms-3 mt-4">
               <li>
-                <div class="day">TUESDAY</div>
-                <div class="hours">10am-2pm</div>
+                <span class="day">TUESDAY</span>
+                <span class="hours">10am-2pm</span>
               </li>
               <li>
-                <div class="day">WEDNESDAY</div>
-                <div class="hours">10am-4pm</div>
+                <span class="day">WEDNESDAY</span>
+                <span class="hours">10am-4pm</span>
               </li>
               <li>
-                <div class="day">THURSDAY</div>
-                <div class="hours">10am-4pm</div>
+                <span class="day">THURSDAY</span>
+                <span class="hours">10am-4pm</span>
               </li>
               <li>
-                <div class="day">FRIDAY</div>
-                <div class="hours">10am-4pm</div>
+                <span class="day">FRIDAY</span>
+                <span class="hours">10am-4pm</span>
               </li>
               <li>
-                <div class="day">SATURDAY</div>
-                <div class="hours">10am-4pm</div>
+                <span class="day">SATURDAY</span>
+                <span class="hours">10am-4pm</span>
               </li>
               <li>
-                <div class="day">SUNDAY & MONDAY</div>
-                <div class="hours">CLOSED</div>
+                <span class="day">SUNDAY & MONDAY</span>
+                <span class="hours">CLOSED</span>
               </li>
             </ul>
           </div>
@@ -133,16 +151,17 @@
             href="tel:3617395788"
             class="contact-links"
             title="Valaree's Salon Phone Number Link"
-            >(361) 739-5788</a
-          >
+            >(361) 739-5788
+          </a>
         </div>
+
         <div class="d-flex justify-content-center">
           <a
             href="mailto:hernandezvalaree@yahoo.com"
             class="contact-links"
             title="Valaree's Salon Email Link"
-            >hernandezvalaree@yahoo.com</a
-          >
+            >hernandezvalaree@yahoo.com
+          </a>
         </div>
 
         <div class="d-flex justify-content-center social-links">
@@ -153,6 +172,7 @@
           >
             <i class="fa-brands fa-facebook"></i>
           </a>
+
           <a
             href="https://www.instagram.com/valareessaloncctx/"
             target="_blank"

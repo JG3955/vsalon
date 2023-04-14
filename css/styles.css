@@ -36,6 +36,11 @@ img:hover {
   filter: none;
 }
 
+label,
+input {
+  font-size: 22px;
+}
+
 footer {
   padding: 80px 0 15px;
 }
@@ -210,4 +215,14 @@ h2 {
 
 .day {
   font-size: 28px;
+}
+
+.hours {
+  display: block;
+}
+
+.appointment-service,
+.appointment-time {
+  padding: 40px 0;
+  text-align: start;
 }
